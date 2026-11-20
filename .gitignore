@@ -1,0 +1,100 @@
+# Unreal Engine project ignores
+
+# IDE and local user state
+.vs/
+**/.vs/
+.vscode/
+**/.vscode/
+.idea/
+**/.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+*.opensdf
+*.sdf
+
+# Generated IDE/project files
+*.sln
+*.xcodeproj
+*.xcworkspace
+.vsconfig
+**/.vsconfig
+
+# Unreal generated folders
+**/Binaries/
+**/DerivedDataCache/
+**/Intermediate/
+**/Saved/
+
+# Plugin generated folders
+**/Plugins/**/Binaries/
+**/Plugins/**/Intermediate/
+
+# Build output
+**/Build/**
+!**/Build/**/
+!**/Build/**/*.ico
+!**/Build/**/PakBlacklist*.txt
+
+# Compiled objects and libraries
+*.o
+*.lo
+*.slo
+*.gch
+*.pch
+*.so
+*.dylib
+*.dll
+*.lib
+*.a
+*.la
+*.lai
+*.mod
+*.pdb
+*.exp
+
+# Allow intentional third-party binary dependencies.
+!**/Source/ThirdParty/**/*.dll
+!**/Source/ThirdParty/**/*.lib
+!**/Plugins/**/Source/ThirdParty/**/*.dll
+!**/Plugins/**/Source/ThirdParty/**/*.lib
+
+# Executables and packaged apps
+*.exe
+*.out
+*.app
+*.ipa
+*.apk
+
+# Logs, crash dumps, and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.dmp
+*.stackdump
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Built data is generated from maps/assets
+*_BuiltData.uasset
+
+# Optional source art that can be very large
+SourceArt/**/*.png
+SourceArt/**/*.tga
+
+# Fab/마켓플레이스 에셋 팩 — 리포에 넣지 않는다.
+# 디스크에는 그대로 두고 쓰되, 새 PC에서는 Fab에서 다시 받아 Content/ 아래에 복사할 것.
+/ChapSalKing/Content/NiagaraMegaPackVol3/
+/ChapSalKing/Content/KTP_Effect/
+/ChapSalKing/Content/SoStylized/
+/ChapSalKing/Content/CharacterOverlay/
+/ChapSalKing/Content/Vefects/
+/ChapSalKing/Content/DrapEffet/
